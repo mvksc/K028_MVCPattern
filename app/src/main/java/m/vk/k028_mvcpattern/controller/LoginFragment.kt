@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import kotlinx.android.synthetic.main.fragment_login.*
 import m.vk.k028_mvcpattern.R
-import m.vk.k028_mvcpattern.model.interfaces.ILoginResult
-import m.vk.k028_mvcpattern.model.service.LoginApi
+import m.vk.k028_mvcpattern.interfaces.ILoginResult
+import m.vk.k028_mvcpattern.service.LoginApi
 
 class LoginFragment : Fragment(),ILoginResult{
     companion object {
